@@ -1,6 +1,6 @@
 import re
 from datetime import datetime
-from .cronJob import CronJob
+from cronJob import CronJob
 
 
 def detect_log_format(line: str) -> str:
